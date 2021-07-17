@@ -18,8 +18,8 @@
 
 .nav-bar {
   width: 100%;
-  height: 66px;
-  background-color: #002766;
+  height: 60px;
+  background-color: black;
 }
 
 .logo-tab {
@@ -47,7 +47,7 @@
 /* Login Page */
 
 #login-page {
-  background-image: linear-gradient(#40a9ff, #096dd9);
+  background-image: yellow;
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -63,8 +63,8 @@
   padding-bottom: 66px;
   width: 420px;
   text-align: center;
-  background-color: white;
-  border-radius: 22px;
+  background-color: yellow;
+  border-radius: 10px;
 }
 
 .login-button {
@@ -80,7 +80,7 @@
 }
 
 .google {
-  background-color: #4285f4;
+  background-color: red;
   color: white;
 }
 
