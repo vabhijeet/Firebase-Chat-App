@@ -8,3 +8,6 @@ Created a Chat webapp  using ReactJS, Chat Engine, socket.io and Firebase which 
 ### Images
 ![](images/img1.png)
 ![](images/img2.png)
+
+#### Problem Facing
+If problem is faced while running in axios.post request in 'src/components/Chats.js' on line no. 62 instead of processing private key from .env file jus add it manually from .env file. Hopefully this will process it correctly.
