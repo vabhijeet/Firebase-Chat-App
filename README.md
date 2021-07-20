@@ -1,15 +1,13 @@
-# Unichat Application
-
+# MyChat Application
+npm install
 
 
 ## Introduction
+Created a Chat webapp  using ReactJS, Chat Engine, socket.io and Firebase which uses FirebaseUI Auth for handling login requests of users, while their profile were created through API calls from Firebase to chatengine.io one they are logged in successfully.
 
-This is a code repository for the corresponding video tutorial. In this video, we create a full Realtime Chat Application with Social Auth and dedicated chat APIs/sockets.
+### Images
+![](images/img1.png)
+![](images/img2.png)
 
-You will learn how to build a react chat app using [https://chatengine.io](https://chatengine.io)
-
-Firebase and Chat Engine are greats tools to setup apps fast and easily - great to learn with!
-
-### Bonus - E-mail notifications
-
-If you want to upgrade this chat application even further than what is shown in the video, you can add e-mail notifications. More info on https://chatengine.io/docs/email_notifications.
+#### Problem Facing
+If problem is faced while running in axios.post request in 'src/components/Chats.js' on line no. 62 instead of processing private key from .env file jus add it manually from .env file. Hopefully this will process it correctly.
