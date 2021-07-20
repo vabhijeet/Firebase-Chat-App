@@ -1,5 +1,5 @@
 # MyChat Application
-
+npm install
 
 
 ## Introduction
